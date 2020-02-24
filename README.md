@@ -13,7 +13,7 @@ By now, I implement `Markdown Parser` only.
 
 **Note**: this parser is demo now, if you want use it in production, please complete it !
 
-```
+```python
 from parses import MarkdownParser
 
 test_text = '...'
@@ -25,10 +25,6 @@ print(encoded_text)
 res = parser.decode(translated_text, content_delimiters)
 print(res)
 ```
-
-
-
-
 
 ## Contribution
 
